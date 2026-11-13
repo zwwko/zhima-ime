@@ -1595,6 +1595,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "ime-windows-service"
+version = "0.1.0"
+dependencies = [
+ "ime-core",
+ "ime-dictionary",
+]
+
+[[package]]
 name = "ime-wubi"
 version = "0.1.0"
 dependencies = [

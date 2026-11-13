@@ -1,0 +1,4 @@
+LIBRARY ZhimaTsf
+EXPORTS
+    DllRegisterServer PRIVATE
+    DllUnregisterServer PRIVATE

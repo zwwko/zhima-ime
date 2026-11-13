@@ -75,6 +75,8 @@ egui/eframe 用于设置窗口；输入过程中的候选窗口使用平台原�
 | Linux／Fcitx 5 | C++ 薄插件通过 C ABI 调用 Rust，复用框架候选面板 |
 | Linux／IBus | C/GObject 薄接入层通过 C ABI 调用 Rust，复用 IBus 候选面板 |
 
+Windows 当前开发实现使用 C++/Win32 COM 薄前端和 Rust 命名管道服务，与上表 `windows-rs` 的目标选型存在差异；两种位数的前端共用引擎协议和 Rust 会话规则。安装及实际应用兼容性仍需验收，详见 [Windows 开发版](windows.md)。
+
 这些接入方式分别基于官方的 [TSF](https://learn.microsoft.com/en-us/windows/win32/tsf/text-services-framework)、[InputMethodKit](https://developer.apple.com/documentation/inputmethodkit/imkinputcontroller)、[Fcitx 5 插件接口](https://fcitx-im.org/wiki/Develop_an_simple_input_method/en)及 [IBusEngine](https://ibus.github.io/docs/ibus-1.5/IBusEngine.html)。
 
 ### 核心接口约定

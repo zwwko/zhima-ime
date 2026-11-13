@@ -1,0 +1,9 @@
+[package]
+name = "ime-windows-service"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+ime-core = { path = "../core" }
+ime-dictionary = { path = "../dictionary" }
