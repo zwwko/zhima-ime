@@ -1,0 +1,11 @@
+[package]
+name = "ime-ffi"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+[dependencies]
+ime-core = { path = "../core" }
+ime-dictionary = { path = "../dictionary" }
+serde_json.workspace = true
+[lib]
+crate-type = ["cdylib", "staticlib", "rlib"]

@@ -1,0 +1,13 @@
+[package]
+name = "ime-settings"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+[dependencies]
+ime-userdata = { path = "../userdata" }
+ime-core = { path = "../core" }
+ime-dictionary = { path = "../dictionary" }
+serde_json.workspace = true
+eframe = { version = "0.31", optional = true }
+[features]
+gui = ["dep:eframe"]

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>CFBundleIdentifier</key><string>org.zhima.inputmethod</string>
+<key>CFBundleName</key><string>芝麻输入法</string>
+<key>CFBundleExecutable</key><string>Zhima</string>
+<key>CFBundleVersion</key><string>1</string>
+<key>CFBundlePackageType</key><string>APPL</string>
+<key>LSUIElement</key><true/>
+<key>LSMinimumSystemVersion</key><string>14.0</string>
+<key>InputMethodConnectionName</key><string>ZhimaConnection</string>
+<key>InputMethodServerControllerClass</key><string>ZFController</string>
+<key>TISInputSourceID</key><string>org.zhima.inputmethod</string>
+<key>TISIntendedLanguage</key><string>zh-Hans</string>
+<key>tsInputMethodCharacterRepertoireKey</key><array><string>Hans</string></array>
+</dict></plist>

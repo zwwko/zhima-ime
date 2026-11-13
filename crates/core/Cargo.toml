@@ -1,0 +1,10 @@
+[package]
+name = "ime-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+[dependencies]
+ime-dictionary = { path = "../dictionary" }
+ime-wubi = { path = "../wubi" }
+ime-pinyin = { path = "../pinyin" }
+serde.workspace = true
